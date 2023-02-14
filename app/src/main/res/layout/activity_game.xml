@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/activity_game_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView_hangman"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_word">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/a"></Button>
+
+        <Button
+            android:id="@+id/b"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/b"></Button>
+
+        <Button
+            android:id="@+id/c"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/c"></Button>
+
+        <Button
+            android:id="@+id/d"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/d"></Button>
+
+        <Button
+            android:id="@+id/e"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/e"></Button>
+
+        <Button
+            android:id="@+id/f"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/f"></Button>
+
+        <Button
+            android:id="@+id/g"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/g"></Button>
+
+        <Button
+            android:id="@+id/h"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/h"></Button>
+
+        <Button
+            android:id="@+id/i"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/i"></Button>
+
+        <Button
+            android:id="@+id/j"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/j"></Button>
+
+        <Button
+            android:id="@+id/k"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/k"></Button>
+
+        <Button
+            android:id="@+id/l"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/l"></Button>
+
+        <Button
+            android:id="@+id/m"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/m"></Button>
+
+        <Button
+            android:id="@+id/n"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/n"></Button>
+
+        <Button
+            android:id="@+id/o"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/o"></Button>
+
+        <Button
+            android:id="@+id/p"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/p"></Button>
+
+        <Button
+            android:id="@+id/q"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/q"></Button>
+
+        <Button
+            android:id="@+id/r"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/r"></Button>
+
+        <Button
+            android:id="@+id/s"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/s"></Button>
+
+        <Button
+            android:id="@+id/t"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/t"></Button>
+
+        <Button
+            android:id="@+id/u"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/u"></Button>
+
+        <Button
+            android:id="@+id/v"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/v"></Button>
+
+        <Button
+            android:id="@+id/w"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/w"></Button>
+
+        <Button
+            android:id="@+id/x"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/x"></Button>
+
+        <Button
+            android:id="@+id/y"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/y"></Button>
+
+        <Button
+            android:id="@+id/z"
+            android:layout_margin="4dp"
+            android:background="@drawable/round_button"
+            android:text="@string/z"></Button>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_hangman" />
+
+    <TextView
+        android:id="@+id/textView_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_hint" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
